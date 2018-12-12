@@ -1,0 +1,11 @@
+(module PAD.04X.04 (layer F.Cu) (tedit 0)
+  (fp_text reference VDD_SERVO (at 0.8008 0.25) (layer F.SilkS)
+    (effects (font (size 0.475 0.475) (thickness 0.075)) (justify left bottom))
+  )
+  (fp_text value PAD.04 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 0.6485 0) (layer F.SilkS) (width 0.1))
+  (pad P$1 smd roundrect (at 0 0) (size 1.016 1.016) (layers F.Cu F.Mask) (roundrect_rratio 0.5)
+    (solder_mask_margin 0.0254) (solder_paste_margin -0.0254))
+)

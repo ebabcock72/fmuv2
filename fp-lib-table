@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PX4FMUv2.4.6)(type KiCad)(uri "$(KIPRJMOD)/PX4FMUv2.4.6.pretty")(options "")(descr ""))
+)
