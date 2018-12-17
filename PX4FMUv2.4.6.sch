@@ -1,0 +1,88 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1000 1000 500  150 
+U 5C108C9C
+F0 "PX4FMUv2.4.6_1" 50
+F1 "PX4FMUv2.4.6_1.sch" 50
+$EndSheet
+$Sheet
+S 3000 1000 500  150 
+U 5C108DF6
+F0 "PX4FMUv2.4.6_2" 50
+F1 "PX4FMUv2.4.6_2.sch" 50
+$EndSheet
+$Sheet
+S 5000 1000 500  150 
+U 5C109013
+F0 "PX4FMUv2.4.6_3" 50
+F1 "PX4FMUv2.4.6_3.sch" 50
+$EndSheet
+$Sheet
+S 7000 1000 500  150 
+U 5C10917C
+F0 "PX4FMUv2.4.6_4" 50
+F1 "PX4FMUv2.4.6_4.sch" 50
+$EndSheet
+$Sheet
+S 9000 1000 500  150 
+U 5C10935D
+F0 "PX4FMUv2.4.6_5" 50
+F1 "PX4FMUv2.4.6_5.sch" 50
+$EndSheet
+$Sheet
+S 1000 3000 500  150 
+U 5C10963D
+F0 "PX4FMUv2.4.6_6" 50
+F1 "PX4FMUv2.4.6_6.sch" 50
+$EndSheet
+$Sheet
+S 3000 3000 500  150 
+U 5C109A2B
+F0 "PX4FMUv2.4.6_7" 50
+F1 "PX4FMUv2.4.6_7.sch" 50
+$EndSheet
+$Sheet
+S 5000 3000 500  150 
+U 5C109CCF
+F0 "PX4FMUv2.4.6_8" 50
+F1 "PX4FMUv2.4.6_8.sch" 50
+$EndSheet
+$Sheet
+S 7000 3000 500  150 
+U 5C109FAF
+F0 "PX4FMUv2.4.6_9" 50
+F1 "PX4FMUv2.4.6_9.sch" 50
+$EndSheet
+$Sheet
+S 9000 3000 500  150 
+U 5C10A316
+F0 "PX4FMUv2.4.6_10" 50
+F1 "PX4FMUv2.4.6_10.sch" 50
+$EndSheet
+$Sheet
+S 1000 5000 500  150 
+U 5C10A47F
+F0 "PX4FMUv2.4.6_11" 50
+F1 "PX4FMUv2.4.6_11.sch" 50
+$EndSheet
+$Sheet
+S 3000 5000 500  150 
+U 5C10A75F
+F0 "PX4FMUv2.4.6_12" 50
+F1 "PX4FMUv2.4.6_12.sch" 50
+$EndSheet
+$EndSCHEMATC
