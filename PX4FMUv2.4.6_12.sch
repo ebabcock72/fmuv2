@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:PX4FMUv2.4.6-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 11818 8333
 encoding utf-8
-Sheet 1 13
+Sheet 13 13
 Title ""
 Date ""
 Rev ""
@@ -592,47 +593,27 @@ Fiducials for machine\nvision alignment.
 Text Notes 1400 1900 0    47   ~ 0
 Parts:\nResistors: 0402 / 1% unless specified otherwise\nCapacitors: 0402 to 1206, ceramic, voltage rating: 10V unless specified
 Wire Notes Line
-	4900 1300 6500 1300
-Wire Notes Line
-	10900 1300 10900 4100
-Wire Notes Line
 	10900 4100 8800 4100
-Wire Notes Line
-	8800 4100 8800 3300
-Wire Notes Line
-	8800 3300 8800 1300
-Wire Notes Line
-	8800 1300 6500 1300
-Wire Notes Line
-	6500 1300 6500 3300
-Wire Notes Line
-	6500 3300 6500 5900
 Wire Notes Line
 	6500 5900 4900 5900
 Wire Notes Line
-	4900 5900 4900 1300
-Wire Notes Line
 	6500 3300 8800 3300
-Wire Notes Line
-	4900 1300 4900 1000
-Wire Notes Line
-	4900 1000 6500 1000
-Wire Notes Line
-	8800 1000 10900 1000
-Wire Notes Line
-	10900 1000 10900 1300
-Wire Notes Line
-	10900 1300 8800 1300
-Wire Notes Line
-	8800 1300 8800 1000
-Wire Notes Line
-	8800 1000 6500 1000
-Wire Notes Line
-	6500 1000 6500 1300
 Text Notes 5000 1200 0    100  ~ 0
 COMMS
 Text Notes 8900 1200 0    100  ~ 0
 POWER
 Text Notes 6600 1200 0    100  ~ 0
 STATUS AND ANALOG
+Wire Notes Line
+	10900 1000 10900 4100
+Wire Notes Line
+	4900 1000 4900 5900
+Wire Notes Line
+	4900 1000 10900 1000
+Wire Notes Line
+	4900 1300 10900 1300
+Wire Notes Line
+	8800 1000 8800 4100
+Wire Notes Line
+	6500 1000 6500 5900
 $EndSCHEMATC

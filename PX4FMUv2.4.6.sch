@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PX4FMUv2.4.6-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268

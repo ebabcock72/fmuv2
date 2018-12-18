@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:PX4FMUv2.4.6-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 11774 9582
 encoding utf-8
-Sheet 1 13
+Sheet 8 13
 Title ""
 Date ""
 Rev ""
@@ -20,17 +21,6 @@ GND
 Wire Wire Line
 	8200 5000 8200 5100
 Text GLabel 8200 5000 0    10   BiDi ~ 0
-GND
-Wire Wire Line
-	9600 7300 9600 7400
-Wire Wire Line
-	9600 7400 9600 7500
-Wire Wire Line
-	8900 7200 8900 7400
-Wire Wire Line
-	8900 7400 9600 7400
-Connection ~ 9600 7400
-Text GLabel 9600 7300 0    10   BiDi ~ 0
 GND
 Wire Wire Line
 	6000 7200 6000 7100
@@ -122,23 +112,6 @@ Wire Wire Line
 	9400 5600 9400 5700
 Text GLabel 8700 5700 0    50   BiDi ~ 0
 ~IO-LED_BLUE
-Wire Wire Line
-	9600 6900 9600 6800
-Wire Wire Line
-	9600 6800 9600 6600
-Wire Wire Line
-	9600 6600 9700 6600
-Wire Wire Line
-	8800 6800 9600 6800
-Text GLabel 8800 6800 0    50   BiDi ~ 0
-SAFETY
-Connection ~ 9600 6800
-Wire Wire Line
-	9000 6500 8800 6500
-Text GLabel 8800 6500 0    50   BiDi ~ 0
-~IO-LED_SAFETY
-Wire Wire Line
-	9700 6500 9400 6500
 Wire Wire Line
 	2300 5900 2200 5900
 Wire Wire Line
@@ -235,19 +208,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 6500 4700 6500
 Connection ~ 4600 6300
-Wire Wire Line
-	9700 6400 9600 6400
-Wire Wire Line
-	9600 6400 9600 6200
-Wire Wire Line
-	9600 6200 8900 6200
-Wire Wire Line
-	8900 6200 8800 6200
-Wire Wire Line
-	8900 6200 8900 7000
-Text GLabel 8800 6200 0    50   BiDi ~ 0
-IO-VDD_3V3
-Connection ~ 8900 6200
 Wire Wire Line
 	3900 3800 4400 3800
 Wire Wire Line
@@ -460,58 +420,6 @@ F 1 "GND" H 8100 5100 59  0000 L BNN
 F 2 "" H 8200 5200 50  0001 C CNN
 F 3 "" H 8200 5200 50  0001 C CNN
 	1    8200 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L PX4FMUv2.4.6-eagle-import:RESISTOR0402-RES R713
-U 1 0 306630E5A7906472
-P 9600 7100
-AR Path="/306630E5A7906472" Ref="R713"  Part="1" 
-AR Path="/5C109A2B/306630E5A7906472" Ref="R713"  Part="1" 
-F 0 "R713" H 9550 6959 59  0000 L BNN
-F 1 "1K5" H 9550 7170 59  0000 L BNN
-F 2 "PX4FMUv2.4.6:0402-RES" H 9600 7100 50  0001 C CNN
-F 3 "" H 9600 7100 50  0001 C CNN
-	1    9600 7100
-	0    1    1    0   
-$EndComp
-$Comp
-L PX4FMUv2.4.6-eagle-import:GND #GND66
-U 1 0 28ABFEEBA093E1DD
-P 9600 7600
-AR Path="/28ABFEEBA093E1DD" Ref="#GND66"  Part="1" 
-AR Path="/5C109A2B/28ABFEEBA093E1DD" Ref="#GND066"  Part="1" 
-F 0 "#GND066" H 9600 7600 50  0001 C CNN
-F 1 "GND" H 9500 7500 59  0000 L BNN
-F 2 "" H 9600 7600 50  0001 C CNN
-F 3 "" H 9600 7600 50  0001 C CNN
-	1    9600 7600
-	1    0    0    -1  
-$EndComp
-$Comp
-L PX4FMUv2.4.6-eagle-import:RESISTOR0402-RES R710
-U 1 0 CB9C653052A31036
-P 9200 6500
-AR Path="/CB9C653052A31036" Ref="R710"  Part="1" 
-AR Path="/5C109A2B/CB9C653052A31036" Ref="R710"  Part="1" 
-F 0 "R710" H 9050 6559 59  0000 L BNN
-F 1 "68R" H 9050 6370 59  0000 L BNN
-F 2 "PX4FMUv2.4.6:0402-RES" H 9200 6500 50  0001 C CNN
-F 3 "" H 9200 6500 50  0001 C CNN
-	1    9200 6500
-	-1   0    0    1   
-$EndComp
-$Comp
-L PX4FMUv2.4.6-eagle-import:DF13-3P-1.25V J702
-U 1 0 1B33ED8C122DD952
-P 9900 6500
-AR Path="/1B33ED8C122DD952" Ref="J702"  Part="1" 
-AR Path="/5C109A2B/1B33ED8C122DD952" Ref="J702"  Part="1" 
-F 0 "J702" H 9825 6700 59  0000 L BNN
-F 1 "DF13C-3P-1.25V" H 9825 6238 59  0000 L BNN
-F 2 "PX4FMUv2.4.6:DF13C-3P-1.25V" H 9900 6500 50  0001 C CNN
-F 3 "" H 9900 6500 50  0001 C CNN
-	1    9900 6500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -814,19 +722,6 @@ F 3 "" H 8200 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PX4FMUv2.4.6-eagle-import:DIODE-TVS D701
-U 1 0 1C18D841766AC08D
-P 8900 7100
-AR Path="/1C18D841766AC08D" Ref="D701"  Part="1" 
-AR Path="/5C109A2B/1C18D841766AC08D" Ref="D701"  Part="1" 
-F 0 "D701" V 9000 7200 59  0000 L BNN
-F 1 "PESD0402-140" V 8900 7200 59  0000 L BNN
-F 2 "PX4FMUv2.4.6:0402-TVS" H 8900 7100 50  0001 C CNN
-F 3 "" H 8900 7100 50  0001 C CNN
-	1    8900 7100
-	0    -1   -1   0   
-$EndComp
-$Comp
 L PX4FMUv2.4.6-eagle-import:RESISTOR0402-RES R735
 U 1 0 122A1985C4AE7DF
 P 8200 2700
@@ -893,10 +788,6 @@ F 3 "" H 4800 8300 50  0001 C CNN
 $EndComp
 Text Notes 7400 8300 0    73   ~ 0
 LEDs\nPiezo driver\nSafety switch
-Text Notes 7900 6000 0    59   ~ 0
-Switch: E-Switch LP1OA1AR
-Text Notes 10200 6300 0    59   ~ 0
-SAFETY
 Text Notes 4300 2100 0    42   ~ 0
 LED should be Omron LRTBG6SG-U4AA-1+V2B4-25+S or \nsimilar 6PLCC high-brigtness type.
 Text Notes 4200 4800 0    42   ~ 0
@@ -907,4 +798,6 @@ Text Notes 6500 6300 0    42   ~ 0
 All LEDs nominal target 60mcd\nfor good daylight visibility.\nResistor values have been adjusted\nto optimize BOM.\n\nGreen: APG1608CGKC/T\nVf(typ): 2.1V\nTarget If: 20mA\nSelected R: 220\nCacluated If @ 5.5V: 15mA\n\nAmber: APT1608SECK\nVf(typ): 2.1V\nTarget If: 5mA\nSelected R: 440\nCacluated If @ 5.5V: 8mA\n\nBlue: APT1608QBC/G\nVf(typ): 3.3V\nTarget If: 6.6mA\nSelected R: 220\nCacluated If @ 5.5V: 10mA
 Text Notes 1100 7600 0    42   ~ 0
 Component values taken directly from\nthe LTC evaluation design.\n\nNote that the ALARM input should idle\nlow to minimise power dissipation.
+Text Notes 2900 8950 0    157  ~ 0
+Buzzer Driver\nCould be removed
 $EndSCHEMATC

@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:PX4FMUv2.4.6-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 11797 8268
 encoding utf-8
-Sheet 1 13
+Sheet 11 13
 Title ""
 Date ""
 Rev ""
@@ -103,7 +104,6 @@ Connection ~ 4600 2100
 Text GLabel 7300 1500 2    50   BiDi ~ 0
 IO-VDD_5V5
 Connection ~ 4300 2100
-Connection ~ 4600 2100
 Wire Wire Line
 	5600 2900 5600 2700
 Wire Wire Line
